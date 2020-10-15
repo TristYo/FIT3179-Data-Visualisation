@@ -1,0 +1,244 @@
+Country,Temperature
+Åland,7.283333333
+Afghanistan,15.49783333
+Africa,24.58808333
+Albania,13.74658333
+Algeria,24.03225
+American Samoa,27.21983333
+Andorra,12.31191667
+Angola,22.36066667
+Anguilla,27.05275
+Antarctica,
+Antigua And Barbuda,26.89208333
+Argentina,14.7505
+Armenia,9.918166667
+Aruba,28.128
+Asia,8.252583333
+Australia,21.70966667
+Austria,8.084916667
+Azerbaijan,12.632
+Bahamas,25.44916667
+Bahrain,27.07075
+Baker Island,25.91216667
+Bangladesh,25.15016667
+Barbados,26.90208333
+Belarus,7.909833333
+Belgium,11.03425
+Belize,25.285
+Benin,27.63766667
+Bhutan,11.99841667
+Bolivia,21.07716667
+"Bonaire, Saint Eustatius And Saba",27.41216667
+Bosnia And Herzegovina,12.14808333
+Botswana,21.87233333
+Brazil,25.1965
+British Virgin Islands,26.73058333
+Bulgaria,11.90683333
+Burkina Faso,28.59141667
+Burma,23.93083333
+Burundi,20.59583333
+Côte D'Ivoire,26.40233333
+Cambodia,27.05716667
+Cameroon,24.613
+Canada,-4.025916667
+Cape Verde,24.71591667
+Cayman Islands,27.10183333
+Central African Republic,25.61333333
+Chad,27.44783333
+Chile,9.564083333
+China,7.238083333
+Christmas Island,26.37525
+Colombia,25.03016667
+Comoros,25.9955
+Congo (Democratic Republic Of The),24.20616667
+Congo,24.786
+Costa Rica,26.07216667
+Croatia,13.22641667
+Cuba,25.785
+Curaçao,27.56408333
+Cyprus,19.442
+Czech Republic,9.659
+Denmark (Europe),9.582916667
+Denmark,-16.8245
+Djibouti,29.86
+Dominica,26.5715
+Dominican Republic,25.88041667
+Ecuador,22.026
+Egypt,22.88141667
+El Salvador,25.40716667
+Equatorial Guinea,25.22058333
+Eritrea,27.51725
+Estonia,7.00875
+Ethiopia,23.76258333
+Europe,9.440083333
+Falkland Islands (Islas Malvinas),6.401166667
+Faroe Islands,7.19175
+Federated States Of Micronesia,27.44283333
+Fiji,25.83716667
+Finland,3.590666667
+France (Europe),11.73808333
+France,13.96733333
+French Guiana,26.11266667
+French Polynesia,26.63583333
+French Southern And Antarctic Lands,5.224
+Gabon,24.57241667
+Gambia,28.06375
+Gaza Strip,19.88091667
+Georgia,9.311166667
+Germany,10.02041667
+Ghana,27.24591667
+Greece,15.67333333
+Greenland,-17.36791667
+Grenada,27.19091667
+Guadeloupe,26.78833333
+Guam,27.48166667
+Guatemala,23.42883333
+Guernsey,11.919
+Guinea Bissau,27.28883333
+Guinea,25.96916667
+Guyana,26.39358333
+Haiti,26.59858333
+Heard Island And Mcdonald Islands,2.885
+Honduras,25.15366667
+Hong Kong,23.2015
+Hungary,11.70033333
+Iceland,2.10325
+India,24.498
+Indonesia,26.19025
+Iran,18.89208333
+Iraq,22.98883333
+Ireland,10.13075
+Isle Of Man,10.25758333
+Israel,20.23041667
+Italy,14.1255
+Jamaica,26.46941667
+Japan,12.83383333
+Jersey,11.919
+Jordan,20.04525
+Kazakhstan,6.761416667
+Kenya,24.71666667
+Kingman Reef,27.45391667
+Kiribati,27.07925
+Kuwait,26.37608333
+Kyrgyzstan,4.73075
+Laos,23.83516667
+Latvia,7.497083333
+Lebanon,18.37733333
+Lesotho,14.05391667
+Liberia,25.85975
+Libya,22.83508333
+Liechtenstein,6.32875
+Lithuania,8.107666667
+Luxembourg,10.79275
+Macau,22.93716667
+Macedonia,11.582
+Madagascar,23.32033333
+Malawi,21.71441667
+Malaysia,26.37141667
+Mali,29.15033333
+Malta,19.60916667
+Martinique,26.5715
+Mauritania,28.35558333
+Mauritius,24.00258333
+Mayotte,26.60933333
+Mexico,21.23208333
+Moldova,10.69
+Monaco,10.2295
+Mongolia,0.175
+Montenegro,11.56133333
+Montserrat,26.84108333
+Morocco,18.56508333
+Mozambique,23.92025
+Namibia,21.01766667
+Nepal,15.27933333
+Netherlands (Europe),10.73875
+Netherlands,11.1035
+New Caledonia,23.28308333
+New Zealand,11.11558333
+Nicaragua,26.38133333
+Niger,27.97583333
+Nigeria,27.0335
+Niue,25.80575
+North America,3.126166667
+North Korea,7.525
+Northern Mariana Islands,27.48166667
+Norway,1.796916667
+Oceania,21.59191667
+Oman,27.92241667
+Pakistan,21.8225
+Palau,27.69075
+Palestina,23.86
+Palmyra Atoll,27.48575
+Panama,26.71183333
+Papua New Guinea,24.942
+Paraguay,23.62608333
+Peru,20.23191667
+Philippines,27.00975
+Poland,9.622166667
+Portugal,15.393
+Puerto Rico,25.7865
+Qatar,27.993
+Reunion,23.88141667
+Romania,10.47225
+Russia,-4.545666667
+Rwanda,19.75308333
+Saint Barthélemy,27.05275
+Saint Kitts And Nevis,26.2735
+Saint Lucia,27.07841667
+Saint Martin,27.05275
+Saint Pierre And Miquelon,5.865
+Saint Vincent And The Grenadines,27.21791667
+Samoa,26.83833333
+San Marino,15.44258333
+Sao Tome And Principe,26.189
+Saudi Arabia,26.64291667
+Senegal,28.52608333
+Serbia,11.791
+Seychelles,27.17925
+Sierra Leone,26.54683333
+Singapore,27.0965
+Sint Maarten,27.05275
+Slovakia,9.482
+Slovenia,11.59058333
+Solomon Islands,27.26475
+Somalia,27.71025
+South Africa,17.58558333
+South America,22.16466667
+South Georgia And The South Sandwich Isla,2.028583333
+South Korea,12.57533333
+Spain,14.46875
+Sri Lanka,27.46975
+Sudan,27.45658333
+Suriname,26.58608333
+Svalbard And Jan Mayen,-5.745666667
+Swaziland,19.0235
+Sweden,4.421
+Switzerland,8.562666667
+Syria,18.77333333
+Taiwan,22.7045
+Tajikistan,5.392583333
+Tanzania,22.79158333
+Thailand,26.30216667
+Timor Leste,26.087
+Togo,27.44241667
+Tonga,24.02866667
+Trinidad And Tobago,26.62708333
+Tunisia,21.1405
+Turkey,12.20191667
+Turkmenistan,16.39816667
+Turks And Caicas Islands,26.95691667
+Uganda,23.56091667
+Ukraine,9.316333333
+United Arab Emirates,28.87775
+United Kingdom (Europe),9.5655
+United Kingdom,9.379666667
+United States,9.64975
+Uruguay,17.75675
+Uzbekistan,13.93883333
+Venezuela,25.3885
+Vietnam,23.98191667
+Virgin Islands,26.73058333
+Western Sahara,23.02008333
+Yemen,27.43616667
+Zambia,21.55875
+Zimbabwe,21.149
