@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "title": "Change in Temperature",
+  "title": "Change in Temperature from 2000 to 2010",
   "width": 800,
   "height": 600,
   "params": [
