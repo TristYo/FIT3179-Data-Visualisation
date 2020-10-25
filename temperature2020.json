@@ -1,12 +1,19 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "title": "Change in Temperature from 2000 to 2010",
+  "title": "Change in Temperature",
   "width": 800,
   "height": 600,
   "params": [
     {
       "name": "year_selection",
-      "bind": {"input": "range", "min": 2000, "max": 2013, "step": 1}
+      "value": 2005,
+      "bind": {
+        "input": "range",
+        "min": 2000,
+        "max": 2013,
+        "step": 1,
+        "name": "Year"
+      }
     }
   ],
   "data": {
@@ -50,13 +57,14 @@
       {"field": "Year", "type": "quantitative", "format": ".3"}
     ],
     "color": {
+      "condition": {"test": "datum['Year'] == 2005", "value": null},
       "field": "Year",
+      "title": "Delta T (deg C)",
       "type": "quantitative",
       "scale": {
         "type": "linear",
         "range": ["blue", "white", "red"],
-        "domainMax": 2,
-        "domainMin": -2
+        "domain": [-2, 0, 2]
       }
     }
   },
