@@ -7,7 +7,7 @@
   },
   "vconcat": [
     {
-      "width": 800,
+      "width": 600,
       "height": 540,
       "layer": [
         {
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "width": 800,
+      "width": 600,
       "height": 60,
       "mark": "circle",
       "selection": {"brush": {"type": "interval", "encodings": ["x"]}},
