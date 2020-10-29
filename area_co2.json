@@ -3,8 +3,8 @@
   "data": {
     "url": "https://raw.githubusercontent.com/TristYo/FIT3179-Data-Visualisation/master/owid-co2-data.csv"
   },
-  "width": 800,
-  "height": 600,
+  "width": 600,
+  "height": 500,
   "encoding": {
     "x": {
       "field": "year",
@@ -24,7 +24,7 @@
   "layer": [
     {
       "encoding": {
-        "color": {"field": "country", "type": "nominal"},
+        "color": {"field": "country", "type": "nominal", "title": "Continent"},
         "y": {
           "field": "co2",
           "type": "quantitative",
