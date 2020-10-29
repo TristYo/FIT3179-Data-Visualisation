@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "title": "Change in Temperature",
-  "width": 700,
-  "height": 600,
+  "width": 600,
+  "height": 400,
   "params": [
     {
       "name": "year_selection",
@@ -59,7 +59,7 @@
     "color": {
       "condition": {"test": "datum['Year'] == 2005", "value": null},
       "field": "Year",
-      "title": "Delta T (deg C)",
+      "title": "Delta T",
       "type": "quantitative",
       "scale": {
         "type": "linear",
