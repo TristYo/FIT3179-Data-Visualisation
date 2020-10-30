@@ -3,7 +3,7 @@
   "data": {
     "url": "https://raw.githubusercontent.com/TristYo/FIT3179-Data-Visualisation/master/owid-co2-data.csv"
   },
-  "title": "Carbon Emissions (1900-2018)",
+  "title": {"text": "Carbon Emissions (1900-2018)", "fontSize": 25},
   "width": 600,
   "height": 500,
   "encoding": {
@@ -29,7 +29,16 @@
           "field": "country",
           "type": "nominal",
           "title": "Continent",
-          "legend": {"orient": "top"}
+          "legend": {
+            "orient": "none",
+            "legendX": 30,
+            "legendY": 30,
+            "fillColor": "white",
+            "strokeColor": "black",
+            "padding": 10,
+            "labelFontSize": 15,
+            "titleFontSize": 17
+          }
         },
         "y": {
           "field": "co2",
@@ -77,12 +86,12 @@
             "timeUnit": "year",
             "title": "Year"
           },
-          {"field": "Africa", "type": "quantitative"},
-          {"field": "Asia", "type": "quantitative"},
-          {"field": "Europe", "type": "quantitative"},
-          {"field": "North America", "type": "quantitative"},
-          {"field": "Oceania", "type": "quantitative"},
-          {"field": "South America", "type": "quantitative"}
+          {"field": "Africa", "type": "quantitative", "format": ".5"},
+          {"field": "Asia", "type": "quantitative", "format": ".5"},
+          {"field": "Europe", "type": "quantitative", "format": ".5"},
+          {"field": "North America", "type": "quantitative", "format": ".5"},
+          {"field": "Oceania", "type": "quantitative", "format": ".5"},
+          {"field": "South America", "type": "quantitative", "format": ".5"}
         ]
       },
       "selection": {
