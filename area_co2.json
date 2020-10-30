@@ -3,6 +3,7 @@
   "data": {
     "url": "https://raw.githubusercontent.com/TristYo/FIT3179-Data-Visualisation/master/owid-co2-data.csv"
   },
+  "title": "Carbon Emissions (1900-2018)",
   "width": 600,
   "height": 500,
   "encoding": {
@@ -24,7 +25,12 @@
   "layer": [
     {
       "encoding": {
-        "color": {"field": "country", "type": "nominal", "title": "Continent"},
+        "color": {
+          "field": "country",
+          "type": "nominal",
+          "title": "Continent",
+          "legend": {"orient": "top"}
+        },
         "y": {
           "field": "co2",
           "type": "quantitative",
