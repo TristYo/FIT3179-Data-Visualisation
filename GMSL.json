@@ -5,46 +5,23 @@
     "url": "https://raw.githubusercontent.com/TristYo/FIT3179-Data-Visualisation/master/sea_levels.csv",
     "format": {"type": "csv"}
   },
-  "vconcat": [
+  "width": 600,
+  "height": 540,
+  "layer": [
     {
-      "width": 600,
-      "height": 540,
-      "layer": [
-        {
-          "encoding": {
-            "tooltip": [
-              {"field": "Time", "type": "temporal"},
-              {"field": "GMSL", "type": "quantitative"}
-            ],
-            "x": {
-              "field": "Time",
-              "type": "temporal",
-              "scale": {"domain": {"selection": "brush"}},
-              "axis": {"title": ""}
-            },
-            "y": {"field": "GMSL", "type": "quantitative"}
-          },
-          "layer": [{"mark": {"type": "circle"}}, {"mark": {"type": "text"}}]
-        },
-        {
-          "mark": {"type": "line", "color": "red"},
-          "transform": [{"regression": "GMSL", "on": "Time", "order": 1}],
-          "encoding": {
-            "x": {
-              "field": "Time",
-              "type": "temporal",
-              "scale": {"domain": {"selection": "brush"}}
-            },
-            "y": {"field": "GMSL", "type": "quantitative"}
-          }
-        }
-      ]
+      "encoding": {
+        "tooltip": [
+          {"field": "Time", "type": "temporal"},
+          {"field": "GMSL", "type": "quantitative"}
+        ],
+        "x": {"field": "Time", "type": "temporal", "axis": {"title": ""}},
+        "y": {"field": "GMSL", "type": "quantitative"}
+      },
+      "layer": [{"mark": {"type": "circle"}}, {"mark": {"type": "text"}}]
     },
     {
-      "width": 600,
-      "height": 60,
-      "mark": "circle",
-      "selection": {"brush": {"type": "interval", "encodings": ["x"]}},
+      "mark": {"type": "line", "color": "red"},
+      "transform": [{"regression": "GMSL", "on": "Time", "order": 1}],
       "encoding": {
         "x": {"field": "Time", "type": "temporal"},
         "y": {"field": "GMSL", "type": "quantitative"}
