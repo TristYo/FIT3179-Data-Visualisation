@@ -6,7 +6,7 @@
     "format": {"type": "csv"}
   },
   "width": 600,
-  "height": 480,
+  "height": 360,
   "layer": [
     {
       "encoding": {
