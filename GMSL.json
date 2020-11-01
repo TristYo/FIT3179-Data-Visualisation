@@ -11,15 +11,23 @@
     {
       "encoding": {
         "tooltip": [
-          {"field": "Time", "type": "temporal"},
+          {"field": "Time", "type": "temporal", "title": "Date"},
           {"field": "GMSL", "type": "quantitative"}
         ],
-        "x": {"field": "Time", "type": "temporal", "axis": {"title": ""}},
-        "y": {"field": "GMSL", "type": "quantitative"}
+        "x": {"field": "Time", "type": "temporal", "axis": {"title": "Date"}},
+        "y": {
+          "field": "GMSL",
+          "type": "quantitative",
+          "axis": {"title": "Mean Sea level (mm)"}
+        }
       },
-      "layer": [{"mark": {"type": "circle"}}, {"mark": {"type": "text"}}]
+      "layer": [
+        {"mark": {"type": "line", "opacity": 0.3}},
+        {"mark": {"type": "point", "opacity": 0.3, "filled": true}}
+      ]
     },
     {
+      "selection": {"grid": {"type": "interval", "bind": "scales"}},
       "mark": {"type": "line", "color": "red"},
       "transform": [{"regression": "GMSL", "on": "Time", "order": 1}],
       "encoding": {
